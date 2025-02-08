@@ -9,8 +9,7 @@ end
 
 
 local function onInitiliasation(eventData)
-    event.register("load", onLoad)
-	event.register("loaded", onLoaded)
+    tes3ui.log("barnanana")
     logMessage("Initliased")
 end
 
