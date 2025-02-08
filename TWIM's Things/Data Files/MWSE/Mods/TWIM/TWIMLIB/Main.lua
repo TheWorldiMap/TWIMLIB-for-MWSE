@@ -2,9 +2,8 @@
 local mod = "TWIMLIB"
 local version = "0.0.1"
 
-
 local function logMessage(message)
-	mwse.log("[" .. mod .. " " .. version .. "] " .. message)
+	tes3ui.log("[" .. mod .. " " .. version .. "] " .. message)
 end
 ----------------------------------------------------------------------------------------------------
 
