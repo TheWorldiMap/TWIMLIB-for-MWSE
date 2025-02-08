@@ -2,4 +2,17 @@
 name = "TWIMLIB"
 description = "The Library i use for all my future mods so that they can have proper parity between them"
 homepage = "TBD"
-repository = "good idea lol"
+repository = "https://github.com/TheWorldiMap/TWIMLIB-for-MWSE"
+authors = ["TheWorldMap(TWIM)"]
+version = "0.0.1"
+
+[tools.mwse]
+lua-mod = "TWIM.TWIMLIB"
+load-priority = 1
+wait-until-initialize = true
+
+[dependencies.mwse]
+buildnumber = 4228
+
+[dependencies.mge-xe]
+version = ">=0.18.0.0"
